@@ -1,0 +1,32 @@
+{
+  "name": "ipv4-range",
+  "version": "0.0.0",
+  "description": "Takes an IPv4 address and a number, and returns an array of surrounding addresses.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "surrange": "~0.1.1"
+  },
+  "devDependencies": {
+    "tape": "~1.1.1"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelrhodes/ipv4-range"
+  },
+  "keywords": [
+    "ipv4",
+    "ip",
+    "range"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/ipv4-range/issues"
+  }
+}
